@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF OPB733TR U 0 40 Y Y 1 F N
 F0 "U" 0 -300 60 H V C CNN
 F1 "OPB733TR" 0 300 60 H V C CNN
-F2 "Custom:OPB733TR" -100 -400 60 H I C CNN
+F2 "" -100 -400 60 H I C CNN
 F3 "http://www.ttelectronics.com/sites/default/files/download-files/OPB733TR.pdf" 0 -400 60 H I C CNN
 DRAW
 S -350 250 350 -250 0 1 0 f
