@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -72,16 +72,10 @@ F0 "IRSensing" 60
 F1 "IRSensing.sch" 60
 $EndSheet
 $Sheet
-S 4450 2475 1275 1000
+S 3825 2250 1275 1000
 U 5A7E3CFD
 F0 "ARM" 60
 F1 "ARM.sch" 60
-$EndSheet
-$Sheet
-S 4425 3775 1425 950 
-U 5A7E3D38
-F0 "ChargeController" 60
-F1 "ChargeController.sch" 60
 $EndSheet
 $Sheet
 S 4850 5275 1350 950 

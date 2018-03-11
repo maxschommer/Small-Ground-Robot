@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -47,4 +47,77 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L A3916 U?
+U 1 1 5AA4F077
+P 3775 3850
+F 0 "U?" H 3775 3750 60  0000 C CNN
+F 1 "A3916" H 3775 3950 60  0000 C CNN
+F 2 "" H 3775 3850 60  0001 C CNN
+F 3 "" H 3775 3850 60  0001 C CNN
+	1    3775 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 3075 3600 0    60   Input ~ 0
+MC1_SLEEPn
+Text HLabel 3075 3700 0    60   Input ~ 0
+MC1_IN1
+Text HLabel 3075 3800 0    60   Input ~ 0
+MC1_IN2
+Text HLabel 3075 3900 0    60   Input ~ 0
+MC1_IN3
+Text HLabel 3075 4000 0    60   Input ~ 0
+MC1_IN4
+$Comp
+L R R?
+U 1 1 5AA4F12C
+P 2925 4100
+F 0 "R?" V 3005 4100 50  0000 C CNN
+F 1 "10k" V 2925 4100 50  0000 C CNN
+F 2 "" V 2855 4100 50  0001 C CNN
+F 3 "" H 2925 4100 50  0001 C CNN
+	1    2925 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AA4F16D
+P 2475 4100
+F 0 "#PWR?" H 2475 3950 50  0001 C CNN
+F 1 "+5V" H 2475 4240 50  0000 C CNN
+F 2 "" H 2475 4100 50  0001 C CNN
+F 3 "" H 2475 4100 50  0001 C CNN
+	1    2475 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 4100 2775 4100
+$Comp
+L GND #PWR?
+U 1 1 5AA4F189
+P 3075 4200
+F 0 "#PWR?" H 3075 3950 50  0001 C CNN
+F 1 "GND" H 3075 4050 50  0000 C CNN
+F 2 "" H 3075 4200 50  0001 C CNN
+F 3 "" H 3075 4200 50  0001 C CNN
+	1    3075 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AA4F1A9
+P 4675 3450
+F 0 "C?" H 4700 3550 50  0000 L CNN
+F 1 ".1uF" H 4700 3350 50  0000 L CNN
+F 2 "" H 4713 3300 50  0001 C CNN
+F 3 "" H 4675 3450 50  0001 C CNN
+	1    4675 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 3500 4475 3300
+Wire Wire Line
+	4475 3300 4675 3300
+Wire Wire Line
+	4475 3600 4675 3600
 $EndSCHEMATC
