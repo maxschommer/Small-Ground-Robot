@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP OPB733TR
-D IR Sensor
-K IR Sensor SMD Reflective Object Sensor
-F http://www.ttelectronics.com/sites/default/files/download-files/OPB733TR.pdf
-$ENDCMP
-#
-#End Doc Library
