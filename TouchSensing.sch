@@ -121,11 +121,7 @@ Wire Wire Line
 	5350 3375 5725 3375
 Wire Wire Line
 	5350 3575 5725 3575
-Text GLabel 5725 3375 2    60   Input ~ 0
-T_FrontLeft
 Connection ~ 5575 3375
-Text GLabel 5725 3575 2    60   Input ~ 0
-T_BackLeft
 Connection ~ 5575 3575
 $Comp
 L SW_SPDT SW2
@@ -201,10 +197,14 @@ Wire Wire Line
 	7125 3325 7500 3325
 Wire Wire Line
 	7125 3525 7500 3525
-Text GLabel 7500 3325 2    60   Input ~ 0
-T_FrontRight
 Connection ~ 7350 3325
-Text GLabel 7500 3525 2    60   Input ~ 0
-T_BackRight
 Connection ~ 7350 3525
+Text HLabel 5725 3375 2    60   Input ~ 0
+T_FrontLeft
+Text HLabel 5725 3575 2    60   Input ~ 0
+T_BackLeft
+Text HLabel 7500 3325 2    60   Input ~ 0
+T_FrontRight
+Text HLabel 7500 3525 2    60   Input ~ 0
+T_BackRight
 $EndSCHEMATC

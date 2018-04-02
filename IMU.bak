@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:ultrasonic_localization-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -32,13 +31,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:custom
-LIBS:ultrasonic_localization-cache
+LIBS:CustomSymbols
+LIBS:smallGroundRobot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 2 7
 Title "IMU Module"
 Date "2017-11-06"
 Rev "V1"
@@ -49,10 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IMU U801
+L IMU U?
 U 1 1 5A13EED2
 P 4025 3925
-F 0 "U801" H 4025 3825 60  0000 C CNN
+F 0 "U?" H 4025 3825 60  0000 C CNN
 F 1 "IMU" H 4025 3925 60  0000 C CNN
 F 2 "Housings_LGA:Bosch_LGA-14_3x2.5mm_Pitch0.5mm" H 4025 3925 60  0001 C CNN
 F 3 "" H 4025 3925 60  0001 C CNN
@@ -60,10 +59,10 @@ F 3 "" H 4025 3925 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R801
+L R R?
 U 1 1 5A13EED9
 P 2875 3875
-F 0 "R801" V 2955 3875 50  0000 C CNN
+F 0 "R?" V 2955 3875 50  0000 C CNN
 F 1 "10K" V 2875 3875 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2805 3875 50  0001 C CNN
 F 3 "" H 2875 3875 50  0001 C CNN
@@ -71,10 +70,10 @@ F 3 "" H 2875 3875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C801
+L C C?
 U 1 1 5A13EEE0
 P 4225 4725
-F 0 "C801" H 4250 4825 50  0000 L CNN
+F 0 "C?" H 4250 4825 50  0000 L CNN
 F 1 "100nF" H 4250 4625 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4263 4575 50  0001 C CNN
 F 3 "" H 4225 4725 50  0001 C CNN
@@ -156,28 +155,6 @@ INT2_1V8
 NoConn ~ 3375 3625
 NoConn ~ 3375 3825
 $Comp
-L Level_Shifter_4Channel-RESCUE-ultrasonic_localization U802
-U 1 1 5A13EF11
-P 6975 3750
-F 0 "U802" H 6975 3750 60  0000 C CNN
-F 1 "Level_Shifter_4Channel" H 6975 4450 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 6975 3750 60  0001 C CNN
-F 3 "" H 6975 3750 60  0001 C CNN
-	1    6975 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR0120
-U 1 1 5A13EF18
-P 7800 3250
-F 0 "#PWR0120" H 7800 3100 50  0001 C CNN
-F 1 "+5V" H 7800 3390 50  0000 C CNN
-F 2 "" H 7800 3250 50  0001 C CNN
-F 3 "" H 7800 3250 50  0001 C CNN
-	1    7800 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R805
 U 1 1 5A13EF1E
 P 7875 4600
@@ -237,17 +214,6 @@ Wire Wire Line
 	7875 4050 7875 4450
 Wire Wire Line
 	7625 4250 7625 4450
-$Comp
-L +5V #PWR0121
-U 1 1 5A13EF46
-P 8575 4850
-F 0 "#PWR0121" H 8575 4700 50  0001 C CNN
-F 1 "+5V" H 8575 4990 50  0000 C CNN
-F 2 "" H 8575 4850 50  0001 C CNN
-F 3 "" H 8575 4850 50  0001 C CNN
-	1    8575 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7625 4750 7625 4850
 Wire Wire Line
@@ -371,4 +337,37 @@ Wire Wire Line
 Wire Wire Line
 	4675 3125 4675 3825
 Connection ~ 3825 3125
+$Comp
+L Level_Shifter_4Channel U?
+U 1 1 5AA8177A
+P 6975 3750
+F 0 "U?" H 6975 3750 60  0000 C CNN
+F 1 "Level_Shifter_4Channel" H 6975 4450 60  0000 C CNN
+F 2 "" H 6975 3750 60  0001 C CNN
+F 3 "" H 6975 3750 60  0001 C CNN
+	1    6975 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5AC02D08
+P 7800 3250
+F 0 "#PWR?" H 7800 3100 50  0001 C CNN
+F 1 "+3V3" H 7800 3390 50  0000 C CNN
+F 2 "" H 7800 3250 50  0001 C CNN
+F 3 "" H 7800 3250 50  0001 C CNN
+	1    7800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5AC02D38
+P 8575 4850
+F 0 "#PWR?" H 8575 4700 50  0001 C CNN
+F 1 "+3V3" H 8575 4990 50  0000 C CNN
+F 2 "" H 8575 4850 50  0001 C CNN
+F 3 "" H 8575 4850 50  0001 C CNN
+	1    8575 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
