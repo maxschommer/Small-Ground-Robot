@@ -1,0 +1,151 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CustomSymbols
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OPB733TR U1
+U 1 1 5AD3BA08
+P 5325 3900
+F 0 "U1" H 5325 3600 60  0000 C CNN
+F 1 "OPB733TR" H 5325 4200 60  0000 C CNN
+F 2 "Custom:OPB733TR" H 5225 3500 60  0001 C CNN
+F 3 "http://www.ttelectronics.com/sites/default/files/download-files/OPB733TR.pdf" H 5325 3350 60  0001 C CNN
+	1    5325 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5AD3BB05
+P 4625 3800
+F 0 "R1" V 4705 3800 50  0000 C CNN
+F 1 "30k" V 4625 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4555 3800 50  0001 C CNN
+F 3 "" H 4625 3800 50  0001 C CNN
+	1    4625 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5AD3BB35
+P 4625 4000
+F 0 "R2" V 4705 4000 50  0000 C CNN
+F 1 "36" V 4625 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4555 4000 50  0001 C CNN
+F 3 "" H 4625 4000 50  0001 C CNN
+	1    4625 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x03 J1
+U 1 1 5AD3BC2B
+P 6550 3900
+F 0 "J1" H 6550 4100 50  0000 C CNN
+F 1 "Conn_01x03" H 6550 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 6550 3900 50  0001 C CNN
+F 3 "" H 6550 3900 50  0001 C CNN
+	1    6550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 4000 5875 3800
+Text Label 4475 3800 2    60   ~ 0
+VOutIR
+$Comp
+L +3V3 #PWR1
+U 1 1 5AD3BD25
+P 4200 4000
+F 0 "#PWR1" H 4200 3850 50  0001 C CNN
+F 1 "+3V3" H 4200 4140 50  0000 C CNN
+F 2 "" H 4200 4000 50  0001 C CNN
+F 3 "" H 4200 4000 50  0001 C CNN
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 5AD3BD69
+P 5875 4000
+F 0 "#PWR2" H 5875 3750 50  0001 C CNN
+F 1 "GND" H 5875 3850 50  0000 C CNN
+F 2 "" H 5875 4000 50  0001 C CNN
+F 3 "" H 5875 4000 50  0001 C CNN
+	1    5875 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 4000 4200 4000
+Text Label 6350 4000 2    60   ~ 0
+VOutIR
+$Comp
+L +3V3 #PWR4
+U 1 1 5AD3C2F2
+P 6100 3900
+F 0 "#PWR4" H 6100 3750 50  0001 C CNN
+F 1 "+3V3" H 6100 4040 50  0000 C CNN
+F 2 "" H 6100 3900 50  0001 C CNN
+F 3 "" H 6100 3900 50  0001 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 5AD3C309
+P 6100 3525
+F 0 "#PWR3" H 6100 3275 50  0001 C CNN
+F 1 "GND" H 6100 3375 50  0000 C CNN
+F 2 "" H 6100 3525 50  0001 C CNN
+F 3 "" H 6100 3525 50  0001 C CNN
+	1    6100 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3900 6100 3900
+Wire Wire Line
+	6350 3800 6350 3525
+Wire Wire Line
+	6350 3525 6100 3525
+$EndSCHEMATC

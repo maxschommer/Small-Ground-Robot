@@ -1,0 +1,73 @@
+Title,
+Revision,
+Date,
+Generated,Mon 16 Apr 2018 05:39:37 PM EDT
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,101
+Total Unique Parts,52
+
+
+
+Ref,Qty,Value,Footprint,Datasheet,
+C1 C701 C702 C705 C707 ,5,10uF,Capacitors_SMD:C_0603,
+C201 C301 C303 C601 C606 C608 C609 ,7,.1uF,Capacitors_SMD:C_0402,
+C602 C603 ,2,15pF,Capacitors_SMD:C_0402,
+C604 C605 ,2,24pF,Capacitors_SMD:C_0402,
+C607 ,1,10nF,Capacitors_SMD:C_0402,
+C703 C704 ,2,4.7uF,Capacitors_SMD:C_0603,
+C706 ,1,1uF,Capacitors_SMD:C_0603,
+CON1 ,1,AVR-JTAG-10,Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm,
+D1 ,1,R_LED_6V,LEDs:LED_0805,
+D103 D401 D402 D403 D404 ,5,LED,LEDs:LED_0805,
+D701 D703 ,2,R_LED_3V3,LEDs:LED_0805,
+D702 ,1,R_LED_USB5V,LEDs:LED_0805,
+D704 ,1,R_LED_PGOOD,LEDs:LED_0805,
+D705 ,1,R_LED_CHG,LEDs:LED_0805,
+J101 J102 J505 J506 J507 ,5,Conn_01x03,Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm,
+J105 ,1,USB_OTG,Connectors:USB_Micro-B,
+J701 ,1,Screw_Terminal_01x02,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol,
+L1 ,1,4.7uH,Inductors_SMD:L_0603,
+L701 L702 ,2,2.2uH,Inductors_SMD:L_0603,
+M301 M302 M303 M304 ,4,Motor_DC,Custom:Motor_6V_96RPM,
+Q501 ,1,Q_NPN_BEC,TO_SOT_Packages_SMD:SOT-23,
+R1 R301 R302 R303 R304 R305 R306 R603 ,8,10k,Resistors_SMD:R_0402,
+R2 ,1,2.55k,Resistors_SMD:R_0402,
+R3 ,1,500,Resistors_SMD:R_0402,
+R103 ,1,39,Resistors_SMD:R_0402,
+R104 R105 ,2,22,Resistors_SMD:R_0402,
+R201 R202 R203 R204 R205 R206 R207 R704 ,8,10K,Resistors_SMD:R_0402,
+R401 R402 R403 R404 R701 ,5,200,Resistors_SMD:R_0402,
+R507 ,1,30k,Resistors_SMD:R_0402,
+R508 ,1,36,Resistors_SMD:R_0402,
+R601 R703 ,2,0,Resistors_SMD:R_0402,
+R602 ,1,390,Resistors_SMD:R_0402,
+R702 ,1,400,Resistors_SMD:R_0402,
+R705 ,1,3.57K,Resistors_SMD:R_0402,
+R706 R708 ,2,1.5K,Resistors_SMD:R_0402,
+R707 ,1,2.94K,Resistors_SMD:R_0402,
+R709 ,1,4.32K,Resistors_SMD:R_0402,
+R710 ,1,56.2K,Resistors_SMD:R_0402,
+SW1 ,1,SW_SPDT,Buttons_Switches_SMD:SW_SPDT_PCM12,
+SW401 SW402 ,2,SW_SPDT,Custom:TouchSensor,
+SW601 ,1,SW_DIP_x01,Custom:KMT071_NGJ_LHS,
+U1 ,1,ST8R00WPUR,Housings_DFN_QFN:DFN-8-1EP_4x4mm_Pitch0.8mm,
+U201 ,1,IMU,Housings_LGA:Bosch_LGA-14_3x2.5mm_Pitch0.5mm,
+U202 ,1,Level_Shifter_4Channel,Custom:R-PUQFN-N12,
+U301 U302 ,2,A3916,Housings_DFN_QFN:DFN-14-1EP_3x3mm_Pitch0.4mm,
+U504 ,1,OPB733TR,Custom:OPB733TR,http://www.ttelectronics.com/sites/default/files/download-files/OPB733TR.pdf
+U601 ,1,STM32F303CCT6,Custom:STM32F303CCT6,
+U701 ,1,TPS62237,Custom:TPS62237DRYR,
+U702 ,1,TPS62231,Custom:TPS62231DRYR,
+U703 ,1,BQ2423,Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm_ThermalVias,DOCUMENTATION
+Y601 ,1,32.768kHz,Custom:ECS-.327-12.5-34B-TR,
+Y602 ,1,8MHz,Custom:ABM3-8.000MHZ-D2Y-T,
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Mon 16 Apr 2018 05:39:37 PM EDT

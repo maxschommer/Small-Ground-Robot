@@ -1,0 +1,25 @@
+Title,
+Revision,
+Date,
+Generated,Mon 16 Apr 2018 05:45:51 PM EDT
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,4
+Total Unique Parts,4
+
+
+
+Ref,Qty,Value,Footprint,Datasheet,
+J1 ,1,Conn_01x03,Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm,
+R1 ,1,30k,Resistors_SMD:R_0402,
+R2 ,1,36,Resistors_SMD:R_0402,
+U1 ,1,OPB733TR,Custom:OPB733TR,http://www.ttelectronics.com/sites/default/files/download-files/OPB733TR.pdf
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Mon 16 Apr 2018 05:45:51 PM EDT

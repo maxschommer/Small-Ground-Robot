@@ -1,0 +1,25 @@
+Title,
+Revision,
+Date,
+Generated,Mon 16 Apr 2018 05:46:29 PM EDT
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,4
+Total Unique Parts,4
+
+
+
+Ref,Qty,Value,Footprint,Datasheet,
+D1 ,1,LED,LEDs:LED_1206,
+J1 ,1,Conn_01x03,Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm,
+Q1 ,1,Q_NPN_BEC,TO_SOT_Packages_SMD:TSOT-23,
+R1 ,1,2,Resistors_SMD:R_0402,
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Mon 16 Apr 2018 05:46:29 PM EDT
