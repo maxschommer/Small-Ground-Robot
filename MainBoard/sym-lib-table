@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name smallGroundRobot-rescue)(type Legacy)(uri ${KIPRJMOD}/smallGroundRobot-rescue.lib)(options "")(descr ""))
+  (lib (name CustomSymbols)(type Legacy)(uri /home/maximilian/Documents/Github/Small-Ground-Robot/CustomSymbols.lib)(options "")(descr ""))
+)

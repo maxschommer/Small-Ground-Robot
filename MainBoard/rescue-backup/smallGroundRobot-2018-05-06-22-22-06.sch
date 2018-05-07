@@ -1,6 +1,40 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:smallGroundRobot-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CustomSymbols
 LIBS:smallGroundRobot-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -193,7 +227,7 @@ MC2_IN3
 Text Label 3800 2600 0    60   ~ 0
 MC2_IN4
 $Comp
-L smallGroundRobot-rescue:LED D103
+L LED D103
 U 1 1 5AC53F8E
 P 4450 2700
 F 0 "D103" H 4450 2800 50  0000 C CNN
@@ -204,7 +238,7 @@ F 3 "" H 4450 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R103
+L R R103
 U 1 1 5AC54125
 P 4850 2700
 F 0 "R103" V 4930 2700 50  0000 C CNN
@@ -215,7 +249,7 @@ F 3 "" H 4850 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 5AC56677
 P 5100 2700
 F 0 "#PWR01" H 5100 2450 50  0001 C CNN
@@ -232,18 +266,18 @@ Wire Wire Line
 Wire Wire Line
 	4300 2700 3800 2700
 $Comp
-L smallGroundRobot-rescue:Conn_01x03 J101
+L Conn_01x03 J101
 U 1 1 5AC1C60C
 P 2650 5250
 F 0 "J101" H 2650 5450 50  0000 C CNN
 F 1 "Conn_01x03" H 2650 5050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 2650 5250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 2650 5250 50  0001 C CNN
 F 3 "" H 2650 5250 50  0001 C CNN
 	1    2650 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L GND #PWR02
 U 1 1 5AC21B38
 P 2450 5350
 F 0 "#PWR02" H 2450 5100 50  0001 C CNN
@@ -260,18 +294,18 @@ L2
 Text Label 2450 5250 2    60   ~ 0
 L1
 $Comp
-L smallGroundRobot-rescue:Conn_01x03 J102
+L Conn_01x03 J102
 U 1 1 5AC28956
 P 2650 6800
 F 0 "J102" H 2650 7000 50  0000 C CNN
 F 1 "Conn_01x03" H 2650 6600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 2650 6800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 2650 6800 50  0001 C CNN
 F 3 "" H 2650 6800 50  0001 C CNN
 	1    2650 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L GND #PWR03
 U 1 1 5AC2896C
 P 2450 6900
 F 0 "#PWR03" H 2450 6650 50  0001 C CNN
@@ -294,7 +328,7 @@ Wire Notes Line
 Text Notes 3000 4200 0    60   ~ 0
 Headlights
 $Comp
-L smallGroundRobot-rescue:USB_OTG J105
+L USB_OTG J105
 U 1 1 5AC50028
 P 5325 1325
 F 0 "J105" H 5125 1775 50  0000 L CNN
@@ -309,7 +343,7 @@ USB5V
 Text Label 5625 1125 0    60   ~ 0
 USB5V
 $Comp
-L power:GND #PWR04
+L GND #PWR04
 U 1 1 5AC59382
 P 5325 1725
 F 0 "#PWR04" H 5325 1475 50  0001 C CNN
@@ -320,7 +354,7 @@ F 3 "" H 5325 1725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5225 1725 5325 1725
+	5225 1725 5625 1725
 Text Label 5925 1325 0    60   ~ 0
 D+
 Text Label 1800 2800 2    60   ~ 0
@@ -333,7 +367,7 @@ Wire Wire Line
 	5625 1725 5625 1525
 Connection ~ 5325 1725
 $Comp
-L smallGroundRobot-rescue:R R104
+L R R104
 U 1 1 5AC63839
 P 5775 1325
 F 0 "R104" V 5700 1325 50  0000 C CNN
@@ -344,7 +378,7 @@ F 3 "" H 5775 1325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R105
+L R R105
 U 1 1 5AC639CC
 P 5775 1425
 F 0 "R105" V 5855 1425 50  0000 C CNN
@@ -355,7 +389,7 @@ F 3 "" H 5775 1425 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR05
+L +3V3 #PWR05
 U 1 1 5AC7D109
 P 2450 5150
 F 0 "#PWR05" H 2450 5000 50  0001 C CNN
@@ -366,7 +400,7 @@ F 3 "" H 2450 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR06
+L +3V3 #PWR06
 U 1 1 5AC7D286
 P 2450 6700
 F 0 "#PWR06" H 2450 6550 50  0001 C CNN
@@ -381,7 +415,7 @@ IR_IN
 Text Label 1800 2400 2    60   ~ 0
 IR_IN
 $Comp
-L power:+3V3 #PWR07
+L +3V3 #PWR07
 U 1 1 5ACAB9F4
 P 9675 2000
 F 0 "#PWR07" H 9675 1850 50  0001 C CNN
@@ -394,7 +428,7 @@ $EndComp
 Wire Wire Line
 	9500 2000 9675 2000
 $Comp
-L power:+1V8 #PWR08
+L +1V8 #PWR08
 U 1 1 5ACABC39
 P 9850 2100
 F 0 "#PWR08" H 9850 1950 50  0001 C CNN
@@ -406,6 +440,4 @@ F 3 "" H 9850 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 2100 9850 2100
-Wire Wire Line
-	5325 1725 5625 1725
 $EndSCHEMATC

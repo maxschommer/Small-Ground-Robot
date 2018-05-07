@@ -1,4 +1,4 @@
-update=Mon 16 Apr 2018 04:29:36 PM EDT
+update=Sun 06 May 2018 10:22:26 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,39 +27,4 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../Small-Ground-Robot
-[eeschema/libraries]
-LibName1=smallGroundRobot-rescue
-LibName2=power
-LibName3=device
-LibName4=switches
-LibName5=relays
-LibName6=motors
-LibName7=transistors
-LibName8=conn
-LibName9=linear
-LibName10=regul
-LibName11=74xx
-LibName12=cmos4000
-LibName13=adc-dac
-LibName14=memory
-LibName15=xilinx
-LibName16=microcontrollers
-LibName17=dsp
-LibName18=microchip
-LibName19=analog_switches
-LibName20=motorola
-LibName21=texas
-LibName22=intel
-LibName23=audio
-LibName24=interface
-LibName25=digital-audio
-LibName26=philips
-LibName27=display
-LibName28=cypress
-LibName29=siliconi
-LibName30=opto
-LibName31=atmel
-LibName32=contrib
-LibName33=valves
-LibName34=CustomSymbols
+LibDir=

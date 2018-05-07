@@ -1,40 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:smallGroundRobot-rescue
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:CustomSymbols
+EESchema Schematic File Version 4
 LIBS:smallGroundRobot-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW_SPDT SW401
+L smallGroundRobot-rescue:SW_SPDT SW401
 U 1 1 5AA4E63F
 P 5150 3475
 F 0 "SW401" H 5150 3645 50  0000 C CNN
@@ -60,7 +26,7 @@ F 3 "" H 5150 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R401
+L smallGroundRobot-rescue:R R401
 U 1 1 5AA4E68A
 P 5575 3225
 F 0 "R401" V 5655 3225 50  0000 C CNN
@@ -71,7 +37,7 @@ F 3 "" H 5575 3225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R402
+L smallGroundRobot-rescue:R R402
 U 1 1 5AA4E6DF
 P 5575 3725
 F 0 "R402" V 5655 3725 50  0000 C CNN
@@ -82,7 +48,7 @@ F 3 "" H 5575 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR023
+L power:+3V3 #PWR023
 U 1 1 5AA4E728
 P 4950 3475
 F 0 "#PWR023" H 4950 3325 50  0001 C CNN
@@ -93,7 +59,7 @@ F 3 "" H 4950 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 5AA4E746
 P 5825 2775
 F 0 "#PWR024" H 5825 2525 50  0001 C CNN
@@ -104,7 +70,7 @@ F 3 "" H 5825 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 5AA4E760
 P 5375 4175
 F 0 "#PWR025" H 5375 3925 50  0001 C CNN
@@ -121,7 +87,7 @@ Wire Wire Line
 Connection ~ 5575 3375
 Connection ~ 5575 3575
 $Comp
-L SW_SPDT SW402
+L smallGroundRobot-rescue:SW_SPDT SW402
 U 1 1 5AA4E865
 P 6925 3425
 F 0 "SW402" H 6925 3595 50  0000 C CNN
@@ -132,7 +98,7 @@ F 3 "" H 6925 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R403
+L smallGroundRobot-rescue:R R403
 U 1 1 5AA4E86B
 P 7350 3175
 F 0 "R403" V 7430 3175 50  0000 C CNN
@@ -143,7 +109,7 @@ F 3 "" H 7350 3175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R404
+L smallGroundRobot-rescue:R R404
 U 1 1 5AA4E871
 P 7350 3675
 F 0 "R404" V 7430 3675 50  0000 C CNN
@@ -154,7 +120,7 @@ F 3 "" H 7350 3675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR026
+L power:+3V3 #PWR026
 U 1 1 5AA4E877
 P 6725 3425
 F 0 "#PWR026" H 6725 3275 50  0001 C CNN
@@ -179,7 +145,7 @@ T_FrontRight
 Text HLabel 7500 3525 2    60   Input ~ 0
 T_BackRight
 $Comp
-L LED D401
+L smallGroundRobot-rescue:LED D401
 U 1 1 5AC6F789
 P 5575 2925
 F 0 "D401" H 5575 3025 50  0000 C CNN
@@ -192,7 +158,7 @@ $EndComp
 Wire Wire Line
 	5575 2775 5825 2775
 $Comp
-L LED D402
+L smallGroundRobot-rescue:LED D402
 U 1 1 5AC6FAFC
 P 5575 4025
 F 0 "D402" H 5575 4125 50  0000 C CNN
@@ -205,7 +171,7 @@ $EndComp
 Wire Wire Line
 	5575 4175 5375 4175
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 5AC70317
 P 7600 2725
 F 0 "#PWR027" H 7600 2475 50  0001 C CNN
@@ -216,7 +182,7 @@ F 3 "" H 7600 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D403
+L smallGroundRobot-rescue:LED D403
 U 1 1 5AC7031D
 P 7350 2875
 F 0 "D403" H 7350 2975 50  0000 C CNN
@@ -229,7 +195,7 @@ $EndComp
 Wire Wire Line
 	7350 2725 7600 2725
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 5AC70391
 P 7150 4125
 F 0 "#PWR028" H 7150 3875 50  0001 C CNN
@@ -240,7 +206,7 @@ F 3 "" H 7150 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D404
+L smallGroundRobot-rescue:LED D404
 U 1 1 5AC70397
 P 7350 3975
 F 0 "D404" H 7350 4075 50  0000 C CNN

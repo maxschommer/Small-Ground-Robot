@@ -1,6 +1,40 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:smallGroundRobot-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CustomSymbols
 LIBS:smallGroundRobot-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +49,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smallGroundRobot-rescue:L L701
+L L L701
 U 1 1 59FB2321
 P 3650 2300
 F 0 "L701" V 3600 2300 50  0000 C CNN
@@ -26,7 +60,7 @@ F 3 "" H 3650 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smallGroundRobot-rescue:C C703
+L C C703
 U 1 1 59FB2328
 P 4050 2450
 F 0 "C703" H 4075 2550 50  0000 L CNN
@@ -37,7 +71,7 @@ F 3 "" H 4050 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:C C701
+L C C701
 U 1 1 59FB232F
 P 1700 2450
 F 0 "C701" H 1725 2550 50  0000 L CNN
@@ -48,7 +82,7 @@ F 3 "" H 1700 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:TPS6223x U701
+L TPS6223x U701
 U 1 1 59FB2336
 P 2725 2450
 F 0 "U701" H 2725 2450 60  0000 C CNN
@@ -59,13 +93,13 @@ F 3 "" H 2725 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 2300 1700 2300
+	1550 2300 2075 2300
 Wire Wire Line
 	1700 2600 2075 2600
 Wire Wire Line
 	2075 2300 2075 2450
 $Comp
-L power:GND #PWR051
+L GND #PWR051
 U 1 1 59FB2340
 P 1700 2725
 F 0 "#PWR051" H 1700 2475 50  0001 C CNN
@@ -78,7 +112,7 @@ $EndComp
 Wire Wire Line
 	1700 2600 1700 2725
 $Comp
-L power:GND #PWR052
+L GND #PWR052
 U 1 1 59FB2347
 P 3375 2700
 F 0 "#PWR052" H 3375 2450 50  0001 C CNN
@@ -91,7 +125,7 @@ $EndComp
 Wire Wire Line
 	3375 2700 3375 2600
 $Comp
-L power:GND #PWR053
+L GND #PWR053
 U 1 1 59FB234E
 P 4050 2700
 F 0 "#PWR053" H 4050 2450 50  0001 C CNN
@@ -106,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2700 4050 2600
 Wire Wire Line
-	3800 2300 3900 2300
+	3800 2300 4275 2300
 Wire Wire Line
 	3375 2450 3900 2450
 Wire Wire Line
@@ -117,7 +151,7 @@ Text Label 1550 2300 2    60   ~ 0
 Connection ~ 1700 2300
 Connection ~ 4050 2300
 $Comp
-L smallGroundRobot-rescue:R R704
+L R R704
 U 1 1 59FB3923
 P 7625 3850
 F 0 "R704" V 7705 3850 50  0000 C CNN
@@ -128,7 +162,7 @@ F 3 "" H 7625 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR054
+L GND #PWR054
 U 1 1 59FB392A
 P 7375 3850
 F 0 "#PWR054" H 7375 3600 50  0001 C CNN
@@ -139,7 +173,7 @@ F 3 "" H 7375 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:C C705
+L C C705
 U 1 1 59FB3937
 P 7325 4300
 F 0 "C705" H 7350 4400 50  0000 L CNN
@@ -150,7 +184,7 @@ F 3 "" H 7325 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:C C706
+L C C706
 U 1 1 59FB3944
 P 7575 3450
 F 0 "C706" H 7600 3550 50  0000 L CNN
@@ -161,7 +195,7 @@ F 3 "" H 7575 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR055
+L GND #PWR055
 U 1 1 59FB394B
 P 7325 4600
 F 0 "#PWR055" H 7325 4350 50  0001 C CNN
@@ -172,7 +206,7 @@ F 3 "" H 7325 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:BQ2423 U703
+L BQ2423 U703
 U 1 1 59FB3951
 P 8525 3650
 F 0 "U703" H 8525 3550 50  0000 C CNN
@@ -183,7 +217,7 @@ F 3 "DOCUMENTATION" H 8525 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R705
+L R R705
 U 1 1 59FB3958
 P 8325 4650
 F 0 "R705" V 8405 4650 50  0000 C CNN
@@ -194,7 +228,7 @@ F 3 "" H 8325 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R707
+L R R707
 U 1 1 59FB395F
 P 8525 4650
 F 0 "R707" V 8605 4650 50  0000 C CNN
@@ -205,7 +239,7 @@ F 3 "" H 8525 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R709
+L R R709
 U 1 1 59FB3966
 P 8725 4650
 F 0 "R709" V 8805 4650 50  0000 C CNN
@@ -216,7 +250,7 @@ F 3 "" H 8725 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR056
+L GND #PWR056
 U 1 1 59FB396D
 P 8325 4800
 F 0 "#PWR056" H 8325 4550 50  0001 C CNN
@@ -227,7 +261,7 @@ F 3 "" H 8325 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R710
+L R R710
 U 1 1 59FB3973
 P 9275 4250
 F 0 "R710" V 9355 4250 50  0000 C CNN
@@ -238,7 +272,7 @@ F 3 "" H 9275 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR057
+L GND #PWR057
 U 1 1 59FB397A
 P 9425 3900
 F 0 "#PWR057" H 9425 3650 50  0001 C CNN
@@ -249,7 +283,7 @@ F 3 "" H 9425 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:C C707
+L C C707
 U 1 1 59FB3980
 P 9425 3050
 F 0 "C707" H 9450 3150 50  0000 L CNN
@@ -260,7 +294,7 @@ F 3 "" H 9425 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L GND #PWR058
 U 1 1 59FB3987
 P 9225 2900
 F 0 "#PWR058" H 9225 2650 50  0001 C CNN
@@ -271,7 +305,7 @@ F 3 "" H 9225 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:LED D704
+L LED D704
 U 1 1 59FB398D
 P 8375 2550
 F 0 "D704" H 8375 2650 50  0000 C CNN
@@ -282,7 +316,7 @@ F 3 "" H 8375 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smallGroundRobot-rescue:LED D705
+L LED D705
 U 1 1 59FB3994
 P 8675 2550
 F 0 "D705" H 8675 2650 50  0000 C CNN
@@ -293,7 +327,7 @@ F 3 "" H 8675 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R706
+L R R706
 U 1 1 59FB399B
 P 8375 2200
 F 0 "R706" V 8455 2200 50  0000 C CNN
@@ -304,7 +338,7 @@ F 3 "" H 8375 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R708
+L R R708
 U 1 1 59FB39A2
 P 8675 2200
 F 0 "R708" V 8755 2200 50  0000 C CNN
@@ -319,10 +353,10 @@ Wire Wire Line
 Wire Wire Line
 	7325 4450 7325 4600
 Wire Wire Line
-	7025 4150 7325 4150
+	7025 4150 7775 4150
 Connection ~ 7325 4150
 Wire Wire Line
-	8325 4800 8525 4800
+	8325 4800 9275 4800
 Connection ~ 8525 4800
 Wire Wire Line
 	9275 4800 9275 4400
@@ -330,9 +364,9 @@ Connection ~ 8725 4800
 Wire Wire Line
 	9425 3900 9275 3900
 Wire Wire Line
-	7375 3300 7575 3300
+	7375 3300 7775 3300
 Wire Wire Line
-	7375 3600 7575 3600
+	7375 3600 7775 3600
 Wire Wire Line
 	7375 3850 7375 3600
 Connection ~ 7575 3600
@@ -346,7 +380,7 @@ Wire Wire Line
 Wire Wire Line
 	9275 3200 9425 3200
 Wire Wire Line
-	9275 3200 9275 3300
+	9275 3200 9275 3650
 Connection ~ 9275 3300
 Wire Wire Line
 	8375 2800 8375 2700
@@ -357,7 +391,7 @@ Wire Wire Line
 Wire Wire Line
 	8675 2800 8675 2700
 Wire Wire Line
-	8375 2050 8675 2050
+	8375 2050 9625 2050
 Wire Wire Line
 	9625 3300 9275 3300
 Connection ~ 8675 2050
@@ -393,7 +427,7 @@ Wire Wire Line
 	7575 4050 7775 4050
 Connection ~ 7575 4150
 $Comp
-L smallGroundRobot-rescue:Screw_Terminal_01x02 J701
+L Screw_Terminal_01x02 J701
 U 1 1 5AA4D271
 P 6825 4350
 F 0 "J701" H 6825 4450 50  0000 C CNN
@@ -408,7 +442,7 @@ Wire Wire Line
 Wire Wire Line
 	7025 4450 7025 4350
 $Comp
-L power:+3V3 #PWR059
+L +3V3 #PWR059
 U 1 1 5AC4A6FF
 P 4275 2300
 F 0 "#PWR059" H 4275 2150 50  0001 C CNN
@@ -419,7 +453,7 @@ F 3 "" H 4275 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R701
+L R R701
 U 1 1 5AC73B8C
 P 5450 2550
 F 0 "R701" V 5530 2550 50  0000 C CNN
@@ -430,7 +464,7 @@ F 3 "" H 5450 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:LED D701
+L LED D701
 U 1 1 5AC73C1D
 P 5450 2850
 F 0 "D701" H 5450 2950 50  0000 C CNN
@@ -441,7 +475,7 @@ F 3 "" H 5450 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR060
+L +3V3 #PWR060
 U 1 1 5AC73CAE
 P 5450 2400
 F 0 "#PWR060" H 5450 2250 50  0001 C CNN
@@ -452,7 +486,7 @@ F 3 "" H 5450 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR061
+L GND #PWR061
 U 1 1 5AC7421A
 P 5450 3000
 F 0 "#PWR061" H 5450 2750 50  0001 C CNN
@@ -465,7 +499,7 @@ $EndComp
 Text Notes 5100 1975 0    60   ~ 0
 Power Indicating LEDs
 $Comp
-L smallGroundRobot-rescue:R R702
+L R R702
 U 1 1 5AC87DDB
 P 5750 2550
 F 0 "R702" V 5830 2550 50  0000 C CNN
@@ -476,7 +510,7 @@ F 3 "" H 5750 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:LED D702
+L LED D702
 U 1 1 5AC87DE1
 P 5750 2850
 F 0 "D702" H 5750 2950 50  0000 C CNN
@@ -487,7 +521,7 @@ F 3 "" H 5750 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR062
+L GND #PWR062
 U 1 1 5AC87DED
 P 5750 3000
 F 0 "#PWR062" H 5750 2750 50  0001 C CNN
@@ -502,7 +536,7 @@ USB_5V
 Text Label 5750 2400 1    60   ~ 0
 USB_5V
 $Comp
-L smallGroundRobot-rescue:LED D703
+L LED D703
 U 1 1 5AC526E2
 P 6025 2850
 F 0 "D703" H 6025 2950 50  0000 C CNN
@@ -513,7 +547,7 @@ F 3 "" H 6025 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR063
+L GND #PWR063
 U 1 1 5AC526E8
 P 6025 3000
 F 0 "#PWR063" H 6025 2750 50  0001 C CNN
@@ -526,7 +560,7 @@ $EndComp
 Wire Notes Line
 	6200 2025 6200 3225
 $Comp
-L power:+1V8 #PWR064
+L +1V8 #PWR064
 U 1 1 5AC52A69
 P 6025 2400
 F 0 "#PWR064" H 6025 2250 50  0001 C CNN
@@ -537,7 +571,7 @@ F 3 "" H 6025 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:L L702
+L L L702
 U 1 1 5AC52E1B
 P 3650 3950
 F 0 "L702" V 3600 3950 50  0000 C CNN
@@ -548,7 +582,7 @@ F 3 "" H 3650 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smallGroundRobot-rescue:C C704
+L C C704
 U 1 1 5AC52E21
 P 4050 4100
 F 0 "C704" H 4075 4200 50  0000 L CNN
@@ -559,7 +593,7 @@ F 3 "" H 4050 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:C C702
+L C C702
 U 1 1 5AC52E27
 P 1700 4100
 F 0 "C702" H 1725 4200 50  0000 L CNN
@@ -570,7 +604,7 @@ F 3 "" H 1700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:TPS6223x U702
+L TPS6223x U702
 U 1 1 5AC52E2D
 P 2725 4100
 F 0 "U702" H 2725 4100 60  0000 C CNN
@@ -581,11 +615,13 @@ F 3 "" H 2725 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 3950 1700 3950
+	1550 3950 2075 3950
 Wire Wire Line
 	1700 4250 2075 4250
+Wire Wire Line
+	2075 3950 2075 4100
 $Comp
-L power:GND #PWR065
+L GND #PWR065
 U 1 1 5AC52E36
 P 1700 4375
 F 0 "#PWR065" H 1700 4125 50  0001 C CNN
@@ -598,7 +634,7 @@ $EndComp
 Wire Wire Line
 	1700 4250 1700 4375
 $Comp
-L power:GND #PWR066
+L GND #PWR066
 U 1 1 5AC52E3D
 P 3375 4350
 F 0 "#PWR066" H 3375 4100 50  0001 C CNN
@@ -611,7 +647,7 @@ $EndComp
 Wire Wire Line
 	3375 4350 3375 4250
 $Comp
-L power:GND #PWR067
+L GND #PWR067
 U 1 1 5AC52E44
 P 4050 4350
 F 0 "#PWR067" H 4050 4100 50  0001 C CNN
@@ -626,7 +662,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 4350 4050 4250
 Wire Wire Line
-	3800 3950 3900 3950
+	3800 3950 4275 3950
 Wire Wire Line
 	3375 4100 3900 4100
 Wire Wire Line
@@ -649,7 +685,7 @@ Wire Notes Line
 Text Label 9625 3300 0    60   ~ 0
 3V7
 $Comp
-L power:+1V8 #PWR068
+L +1V8 #PWR068
 U 1 1 5AC59D90
 P 4275 3950
 F 0 "#PWR068" H 4275 3800 50  0001 C CNN
@@ -660,7 +696,7 @@ F 3 "" H 4275 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R703
+L R R703
 U 1 1 5AC526DC
 P 6025 2550
 F 0 "R703" V 6105 2550 50  0000 C CNN
@@ -671,7 +707,7 @@ F 3 "" H 6025 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:ST8R00WPUR U1
+L ST8R00WPUR U1
 U 1 1 5AD339E5
 P 2700 6050
 F 0 "U1" H 2700 6050 60  0000 C CNN
@@ -682,7 +718,7 @@ F 3 "" H 2700 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:L L1
+L L L1
 U 1 1 5AD33B1F
 P 2700 5400
 F 0 "L1" V 2650 5400 50  0000 C CNN
@@ -693,7 +729,7 @@ F 3 "" H 2700 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R2
+L R R2
 U 1 1 5AD33C5A
 P 3500 6350
 F 0 "R2" V 3580 6350 50  0000 C CNN
@@ -704,7 +740,7 @@ F 3 "" H 3500 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:R R1
+L R R1
 U 1 1 5AD33CB9
 P 3500 5950
 F 0 "R1" V 3580 5950 50  0000 C CNN
@@ -719,14 +755,14 @@ Wire Wire Line
 Wire Wire Line
 	3300 5950 3300 5800
 Wire Wire Line
-	3300 5800 3500 5800
+	3300 5800 3750 5800
 Wire Wire Line
 	3150 6150 3500 6150
 Wire Wire Line
-	3500 6100 3500 6150
+	3500 6100 3500 6200
 Connection ~ 3500 6150
 $Comp
-L power:GND #PWR069
+L GND #PWR069
 U 1 1 5AD33FE9
 P 3500 6500
 F 0 "#PWR069" H 3500 6250 50  0001 C CNN
@@ -741,13 +777,13 @@ Wire Wire Line
 Wire Wire Line
 	3150 5400 2850 5400
 Wire Wire Line
-	1750 5400 2000 5400
+	1750 5400 2550 5400
 Wire Wire Line
 	2250 5400 2250 5750
 Text Label 1750 5400 2    60   ~ 0
 3V7
 $Comp
-L smallGroundRobot-rescue:C C1
+L C C1
 U 1 1 5AD35931
 P 2000 5550
 F 0 "C1" H 2025 5650 50  0000 L CNN
@@ -758,7 +794,7 @@ F 3 "" H 2000 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR070
+L GND #PWR070
 U 1 1 5AD359B1
 P 2000 5700
 F 0 "#PWR070" H 2000 5450 50  0001 C CNN
@@ -771,7 +807,7 @@ $EndComp
 Connection ~ 2250 5400
 Connection ~ 2000 5400
 $Comp
-L power:+3V3 #PWR071
+L +3V3 #PWR071
 U 1 1 5AD36156
 P 2250 6150
 F 0 "#PWR071" H 2250 6000 50  0001 C CNN
@@ -782,7 +818,7 @@ F 3 "" H 2250 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR072
+L GND #PWR072
 U 1 1 5AD3676E
 P 2250 6350
 F 0 "#PWR072" H 2250 6100 50  0001 C CNN
@@ -793,7 +829,7 @@ F 3 "" H 2250 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR073
+L GND #PWR073
 U 1 1 5AD367DC
 P 3150 6350
 F 0 "#PWR073" H 3150 6100 50  0001 C CNN
@@ -804,7 +840,7 @@ F 3 "" H 3150 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+6V #PWR074
+L +6V #PWR074
 U 1 1 5AD370E0
 P 3750 5800
 F 0 "#PWR074" H 3750 5650 50  0001 C CNN
@@ -817,7 +853,7 @@ $EndComp
 Connection ~ 3500 5800
 NoConn ~ 2250 5950
 $Comp
-L power:GND #PWR075
+L GND #PWR075
 U 1 1 5AD3B6A6
 P 2700 6600
 F 0 "#PWR075" H 2700 6350 50  0001 C CNN
@@ -830,7 +866,7 @@ $EndComp
 Wire Wire Line
 	9625 2050 9625 3300
 $Comp
-L smallGroundRobot-rescue:R R3
+L R R3
 U 1 1 5AD486F4
 P 5100 2550
 F 0 "R3" V 5180 2550 50  0000 C CNN
@@ -841,7 +877,7 @@ F 3 "" H 5100 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smallGroundRobot-rescue:LED D1
+L LED D1
 U 1 1 5AD486FA
 P 5100 2850
 F 0 "D1" H 5100 2950 50  0000 C CNN
@@ -852,7 +888,7 @@ F 3 "" H 5100 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR076
+L GND #PWR076
 U 1 1 5AD48706
 P 5100 3000
 F 0 "#PWR076" H 5100 2750 50  0001 C CNN
@@ -863,7 +899,7 @@ F 3 "" H 5100 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+6V #PWR077
+L +6V #PWR077
 U 1 1 5AD48E8F
 P 5100 2400
 F 0 "#PWR077" H 5100 2250 50  0001 C CNN
@@ -879,40 +915,4 @@ Wire Notes Line
 	4950 2025 4950 3225
 Wire Notes Line
 	4950 3225 6200 3225
-Wire Wire Line
-	3900 2300 4050 2300
-Wire Wire Line
-	1700 2300 2075 2300
-Wire Wire Line
-	4050 2300 4275 2300
-Wire Wire Line
-	7325 4150 7575 4150
-Wire Wire Line
-	8525 4800 8725 4800
-Wire Wire Line
-	8725 4800 9275 4800
-Wire Wire Line
-	7575 3600 7775 3600
-Wire Wire Line
-	7575 3300 7775 3300
-Wire Wire Line
-	9275 3300 9275 3650
-Wire Wire Line
-	8675 2050 9625 2050
-Wire Wire Line
-	7575 4150 7775 4150
-Wire Wire Line
-	3900 3950 4050 3950
-Wire Wire Line
-	1700 3950 2075 3950
-Wire Wire Line
-	4050 3950 4275 3950
-Wire Wire Line
-	3500 6150 3500 6200
-Wire Wire Line
-	2250 5400 2550 5400
-Wire Wire Line
-	2000 5400 2250 5400
-Wire Wire Line
-	3500 5800 3750 5800
 $EndSCHEMATC
