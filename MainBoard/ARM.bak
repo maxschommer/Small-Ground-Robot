@@ -95,7 +95,7 @@ Wire Wire Line
 	2350 2500 2500 2500
 Connection ~ 1950 3500
 Wire Wire Line
-	2150 3500 1700 3500
+	2150 3500 1950 3500
 $Comp
 L power:+3V3 #PWR037
 U 1 1 5A9B48AF
@@ -119,10 +119,10 @@ F 3 "" H 1350 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 5000 2200 5000
+	1550 5000 1800 5000
 Connection ~ 1800 5000
 Wire Wire Line
-	1350 4700 2500 4700
+	1350 4700 1800 4700
 Connection ~ 1800 4700
 $Comp
 L power:+3V3 #PWR039
@@ -231,7 +231,7 @@ F 3 "" H 1100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 2700 1300 3000
+	1300 2700 1300 2850
 Wire Wire Line
 	1300 2850 1100 2850
 Connection ~ 1300 2850
@@ -247,7 +247,7 @@ F 3 "" H 2050 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 2700 2050 2700
+	1600 2700 1800 2700
 Wire Wire Line
 	2050 2700 2050 2900
 Wire Wire Line
@@ -293,7 +293,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 3000 7150 3000
 Wire Wire Line
-	1500 3200 2500 3200
+	1500 3200 1950 3200
 Connection ~ 1950 3200
 Wire Wire Line
 	2150 3500 2150 3300
@@ -343,7 +343,7 @@ $EndComp
 Text Label 2500 3100 2    60   ~ 0
 RESET
 Wire Wire Line
-	1600 3000 1900 3000
+	1600 3000 1800 3000
 Connection ~ 1800 3000
 Wire Wire Line
 	2200 3000 2500 3000
@@ -394,7 +394,7 @@ F 3 "" H 1100 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 2200 1300 2500
+	1300 2200 1300 2350
 Wire Wire Line
 	1300 2350 1100 2350
 Connection ~ 1300 2350
@@ -410,10 +410,10 @@ F 3 "" H 2050 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 2200 2250 2200
+	1600 2200 1800 2200
 Connection ~ 1800 2200
 Wire Wire Line
-	1600 2500 1900 2500
+	1600 2500 1800 2500
 Connection ~ 1800 2500
 Wire Wire Line
 	2200 2500 2200 2800
@@ -595,4 +595,24 @@ F 3 "" H 6800 2900 50  0001 C CNN
 	1    6800 2900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 3500 1700 3500
+Wire Wire Line
+	1800 5000 2200 5000
+Wire Wire Line
+	1800 4700 2500 4700
+Wire Wire Line
+	1300 2850 1300 3000
+Wire Wire Line
+	1800 2700 2050 2700
+Wire Wire Line
+	1950 3200 2500 3200
+Wire Wire Line
+	1800 3000 1900 3000
+Wire Wire Line
+	1300 2350 1300 2500
+Wire Wire Line
+	1800 2200 2250 2200
+Wire Wire Line
+	1800 2500 1900 2500
 $EndSCHEMATC

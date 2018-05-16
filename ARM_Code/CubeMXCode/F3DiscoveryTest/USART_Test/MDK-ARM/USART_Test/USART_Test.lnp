@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"usart_test\startup_stm32f303xc.o"
+"usart_test\system_stm32f3xx.o"
+"usart_test\stm32f3xx_hal_gpio.o"
+"usart_test\stm32f3xx_hal_i2c_ex.o"
+"usart_test\stm32f3xx_hal_dma.o"
+"usart_test\stm32f3xx_hal.o"
+"usart_test\stm32f3xx_hal_i2c.o"
+"usart_test\stm32f3xx_hal_rcc_ex.o"
+"usart_test\stm32f3xx_hal_tim.o"
+"usart_test\stm32f3xx_hal_flash.o"
+"usart_test\stm32f3xx_hal_pwr.o"
+"usart_test\stm32f3xx_hal_tim_ex.o"
+"usart_test\stm32f3xx_hal_flash_ex.o"
+"usart_test\stm32f3xx_hal_cortex.o"
+"usart_test\stm32f3xx_hal_pwr_ex.o"
+"usart_test\stm32f3xx_hal_rcc.o"
+"usart_test\stm32f3xx_hal_uart.o"
+"usart_test\stm32f3xx_hal_uart_ex.o"
+"usart_test\stm32f3xx_it.o"
+"usart_test\main.o"
+"usart_test\stm32f3xx_hal_msp.o"
+--library_type=microlib --strict --scatter "USART_Test\USART_Test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "USART_Test.map" -o USART_Test\USART_Test.axf

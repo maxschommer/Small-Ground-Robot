@@ -496,7 +496,7 @@ PB12
 Text HLabel 2500 2600 0    60   Input ~ 0
 PC13
 $Comp
-L CustomSymbols:STM32F303CCT6 U601
+L smallGroundRobot-rescue:STM32F303CCT6-CustomSymbols U601
 U 1 1 5AC15889
 P 2500 2500
 F 0 "U601" H 4200 2900 60  0000 C CNN

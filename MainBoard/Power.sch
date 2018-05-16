@@ -48,7 +48,7 @@ F 3 "" H 1700 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:TPS6223x U701
+L smallGroundRobot-rescue:TPS6223x-CustomSymbols U701
 U 1 1 59FB2336
 P 2725 2450
 F 0 "U701" H 2725 2450 60  0000 C CNN
@@ -172,7 +172,7 @@ F 3 "" H 7325 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:BQ2423 U703
+L smallGroundRobot-rescue:BQ2423-CustomSymbols U703
 U 1 1 59FB3951
 P 8525 3650
 F 0 "U703" H 8525 3550 50  0000 C CNN
@@ -570,7 +570,7 @@ F 3 "" H 1700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:TPS6223x U702
+L smallGroundRobot-rescue:TPS6223x-CustomSymbols U702
 U 1 1 5AC52E2D
 P 2725 4100
 F 0 "U702" H 2725 4100 60  0000 C CNN
@@ -671,7 +671,7 @@ F 3 "" H 6025 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:ST8R00WPUR U1
+L smallGroundRobot-rescue:ST8R00WPUR-CustomSymbols U1
 U 1 1 5AD339E5
 P 2700 6050
 F 0 "U1" H 2700 6050 60  0000 C CNN

@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"small_ground_robot_devel\startup_stm32f303xc.o"
+"small_ground_robot_devel\stm32f3xx_it.o"
+"small_ground_robot_devel\stm32f3xx_hal_msp.o"
+"small_ground_robot_devel\main.o"
+"small_ground_robot_devel\stm32f3xx_hal_pwr.o"
+"small_ground_robot_devel\stm32f3xx_hal_flash_ex.o"
+"small_ground_robot_devel\stm32f3xx_hal_flash.o"
+"small_ground_robot_devel\stm32f3xx_hal_gpio.o"
+"small_ground_robot_devel\stm32f3xx_hal_rcc_ex.o"
+"small_ground_robot_devel\stm32f3xx_hal_i2c_ex.o"
+"small_ground_robot_devel\stm32f3xx_hal_i2c.o"
+"small_ground_robot_devel\stm32f3xx_hal_dma.o"
+"small_ground_robot_devel\stm32f3xx_hal_cortex.o"
+"small_ground_robot_devel\stm32f3xx_hal_tim.o"
+"small_ground_robot_devel\stm32f3xx_hal.o"
+"small_ground_robot_devel\stm32f3xx_hal_tim_ex.o"
+"small_ground_robot_devel\stm32f3xx_hal_pwr_ex.o"
+"small_ground_robot_devel\stm32f3xx_hal_rcc.o"
+"small_ground_robot_devel\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "Small_Ground_Robot_Devel\Small_Ground_Robot_Devel.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Small_Ground_Robot_Devel.map" -o Small_Ground_Robot_Devel\Small_Ground_Robot_Devel.axf

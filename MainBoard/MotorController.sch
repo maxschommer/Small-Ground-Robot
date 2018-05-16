@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CustomSymbols:A3916 U301
+L smallGroundRobot-rescue:A3916-CustomSymbols U301
 U 1 1 5AA4F077
 P 3800 3850
 F 0 "U301" H 3800 3750 60  0000 C CNN
@@ -162,7 +162,7 @@ F 3 "" H 4500 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CustomSymbols:A3916 U302
+L smallGroundRobot-rescue:A3916-CustomSymbols U302
 U 1 1 5AA50C8A
 P 7600 3850
 F 0 "U302" H 7600 3750 60  0000 C CNN

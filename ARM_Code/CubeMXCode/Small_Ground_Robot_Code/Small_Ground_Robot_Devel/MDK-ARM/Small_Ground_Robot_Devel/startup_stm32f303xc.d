@@ -1,0 +1,1 @@
+small_ground_robot_devel\startup_stm32f303xc.o: startup_stm32f303xc.s

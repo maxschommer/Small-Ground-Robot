@@ -105,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	6175 3800 6600 3800
 $Comp
-L CustomSymbols:OPB733TR U504
+L smallGroundRobot-rescue:OPB733TR-CustomSymbols U504
 U 1 1 5AC5F0CD
 P 8500 5200
 F 0 "U504" H 8500 4900 60  0000 C CNN

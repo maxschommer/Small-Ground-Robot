@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CustomSymbols:IMU U201
+L smallGroundRobot-rescue:IMU-CustomSymbols U201
 U 1 1 5A13EED2
 P 4025 3925
 F 0 "U201" H 4025 3825 60  0000 C CNN
